@@ -1,0 +1,57 @@
+{
+    "front":[
+        {"src":"./assets/html5.png",
+         "title":"HTML5",
+         "inner":"웹접근성, 표준성을 준수하며 시멘틱태그를 이용해 마크업 할 수 있습니다."
+        },
+        {"src":"./assets/css3.png",
+        "title":"CSS3",
+        "inner":"position, display를 적절히 사용하여 반응형웹을 적용할 수 있습니다."
+       },
+       {"src":"./assets/js.png",
+       "title":"Javascript",
+       "inner":"Javascript의 배열, 메소드, DOM을 이해하며 다양한 상황에 적용할 수 있습니다."
+      },
+      {"src":"./assets/sass.png",
+      "title":"SASS",
+      "inner":"SCSS의 문법과 모듈화를 잘 활용하여 스타일 작업을 원활히 할 수 있습니다."
+     },
+      {"src":"./assets/reactjs.png",
+      "title":"React.js",
+      "inner":"React 구조와 여러가지 hook들을 잘 알고 있으며, 범용적이고 재사용가능한 컴포넌트 설계를 할 수 있습니다."
+     }
+    ],
+    "tools":[
+        {
+            "src":"./assets/vscode.png",
+            "title":"VS Code",
+            "inner":"주로 사용하는 코딩툴이며, 코딩에 편리한 확장프로그램들을 설치해 사용하고 있습니다."
+        },
+        {
+            "src":"./assets/figma.png",
+            "title":"Figma",
+            "inner":"데스크톱, 모바일 UI/UX 시안을 작업 할 수 있으며, 디버깅을 잘 활용할 수 있습니다.   "
+        }
+        ,    
+        {
+            "src":"./assets/photoshop.png",
+            "title":"PHOTOSHOP",
+            "inner":"마스크효과, 레이어 활용 등을 이용해 다양한 그래픽 요소를 제작할 수 있습니다."
+        },
+        {
+            "src":"./assets/illustrator.png",
+            "title":"Illustrator",
+            "inner":"펜툴 활용과 기타도구들을 이용해서 벡터 형식의 디자인 요소를 제작할 수 있습니다."
+        },
+        {
+            "src":"./assets/postman.png",
+            "title":"POSTMAN",
+            "inner":"Postman을 이용해 서버에 GET, POST 요청을 해서 서버 디버깅을 할 수 있습니다."
+        },
+        {
+            "src":"./assets/git.png",
+            "title":"Git",
+            "inner":"commit, push, pull, clone 등 git 명령어를 사용하여 레파지토리에 접근할 수 있습니다."
+        }
+    ]
+}
