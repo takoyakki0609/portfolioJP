@@ -14,7 +14,7 @@ const TitleBox = styled('div')({
 export default function TopPage(){
     return(
         <Box>
-            <Box sx={{height:'99vh'}}>
+            <Box sx={{height:'100vh'}}>
                 <TitleBox>
                     <h1 style={{margin:0}}>FRONT-END DEV</h1>
                     <span>PORTFOLIO</span>

@@ -4,7 +4,7 @@ import stack from '../api/skillstacks.json'
 const FrontStack = styled('div')({
  display:'flex',
  justifyContent:'space-around',
- transition:'300ms ease',
+
 
 })
 
@@ -14,42 +14,95 @@ const UsingTool = styled('div')({
 })
 
 const StackImg = styled.li`
-    display:flex;
-    list-style:none;
-    border:1px solid rgb(30, 30, 35);
-    transition:left 250ms ease, opacity 400ms ease;
-    overflow:hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    background-color: #000000;
+    border-radius: 0px;
+    border: 1px solid rgb(30, 30, 35);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    transition: 300ms ease;
+    justify-content: center;
     .show-box{
-        opacity:0;
+     position: absolute;
+    width: 180px;
+    left: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    opacity: 0;
+    transition: left 250ms ease, opacity 400ms ease;
+    cursor: default;
+
+    color: white;
         
     }
     &:hover {
+        padding-right: 180px;
+        height: 120px;
+        box-shadow: 0 0 20px wheat;
+        border-radius: 25px;
         .show-box{
            opacity: 1;
-            width: 180px;
+           left:90px;
+           
         }
     }
-  
 `
 
+const Pstyle = styled('p')(({
+    padding:0,
+    margin:0,
+    fontSize:'17.6px'
+    
+}))
+
+const SpanStyle = styled('span')({
+    fontSize:'12.8px',
+    paddingRight:'15px',
+    paddingTop:'5px'
+})
+
+const StackTitleBox = styled('div')({
+    display:'flex',
+    margin:'80px 0 20px 30px',
+    color:'white'
+
+})
+
+const StackTitle = styled('span')({
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    borderRadius: '25px',
+    border: '1px solid rgb(50, 50, 60)',
+    boxShadow: '0 0 15px rgba(0, 0, 0, 0.7)',
+    padding: '6px 25px',
+})
 
 
 export default function Skills(){
     return(
-        <Box sx={{textAlign:'center'}}>
-            <h2 style={{fontSize:'48px', marginTop:'100px'}}>TECH STACK</h2>
-            <span>아이콘에 마우스를 올리면 자세한 설명이 나옵니다.</span>
-            <p style={{textAlign:'left'}}># FRONT-END SKILL</p>
+        <Box sx={{textAlign:'center', backgroundColor:'black', padding:'40px 0', marginTop:'80px'}}>
+            <h2 style={{fontSize:'48px', marginBottom:'0',color:'#22A39F'}}>TECH STACK</h2>
+            <p style={{color:'white'}}>아이콘에 마우스를 올리면 자세한 설명이 나옵니다.</p>
+            <StackTitleBox>
+            <StackTitle># FRONT-END SKILL</StackTitle>
+            </StackTitleBox>
+            
             <FrontStack>
                 {stack.front.map((front, idx)=>{
                     return(
-                        <div style={{display:'flex',}} key={idx}>
+                        <div key={idx}>
                             <ul>
                                 <StackImg>
                                     <img style={{width:'50px'}} src={front.src} alt={front.title} />
                                     <div className="show-box">
-                                        <p>{front.title}</p>
-                                        <span>{front.inner}</span>
+                                        <Pstyle>{front.title}</Pstyle>
+                                        <SpanStyle>{front.inner}</SpanStyle>
                                     </div>   
                                 </StackImg>                            
                              
@@ -58,7 +111,9 @@ export default function Skills(){
                     )                   
                 })}
             </FrontStack>
-            <p style={{textAlign:'left'}}># USING TOOL</p>
+            <StackTitleBox>
+            <StackTitle># USING TOOL</StackTitle>
+            </StackTitleBox>           
             <UsingTool>
             {stack.tools.map((tool, idx)=>{
                     return(
@@ -66,8 +121,8 @@ export default function Skills(){
                             <StackImg>
                             <img style={{width:'50px'}} src={tool.src} alt={tool.title} />
                                 <div className="show-box">
-                                <p>{tool.title}</p>
-                                <span>{tool.inner}</span>
+                                <Pstyle>{tool.title}</Pstyle>
+                                <SpanStyle>{tool.inner}</SpanStyle>
                             </div>    
                             </StackImg>                   
                     </div>
