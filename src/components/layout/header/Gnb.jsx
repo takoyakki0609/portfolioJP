@@ -8,6 +8,7 @@ const Navi = styled('div')({
   display: 'flex',
   listStyle: 'none',
   textTransform: 'uppercase',
+  color: 'white',
 });
 
 export default function Gnb() {

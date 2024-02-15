@@ -1,0 +1,287 @@
+{
+    "project1": {
+        "img": [
+            {
+                "id": "1",
+                "src": ""
+            },
+            {
+                "id": "2",
+                "src": ""
+            },
+            {
+                "id": "3",
+                "src": ""
+            },
+            {
+                "id": "4",
+                "src": ""
+            }
+        ],
+        "title": {
+            "title": "news feed project"
+        },
+        "subtitle": {
+            "subtitle": "team project"
+        },
+        "scrpit": {
+            "script": "reactを利用して作った初めてのチームプロジェクトです。
+            firebase + CRUDを利用して簡単なnews feedサイトを製作しvercelで配布しました。"
+        },
+        "hash": [
+            {
+                "id": "1",
+                "tag": "#react"
+            },
+            {
+                "id": "2",
+                "tag": "#firebase"
+            }
+        ],
+        "socialurl": [
+            {
+                "id": "1",
+                "url": "https://team-project-flame.vercel.app/"
+            },
+            {
+                "id": "2",
+                "url": "https://github.com/tjdsksro90/team-project"
+            }
+        ]
+    },
+    "project2": {
+        "img": [
+            {
+                "id": "1",
+                "src": ""
+            },
+            {
+                "id": "2",
+                "src": ""
+            },
+            {
+                "id": "3",
+                "src": ""
+            },
+            {
+                "id": "4",
+                "src": ""
+            }
+        ],
+        "title": {
+            "title": "outsourcing project"
+        },
+        "subtitle": {
+            "subtitle": "team project"
+        },
+        "scrpit": {
+            "script": "reactを利用して作った最初の2番目のプロジェクトです。
+            韓国のコーヒーブランドである「ペッダバン」で紹介ページのアウトソーシングを受けたと仮定して作ったウェブページで、反応型デザイン、ユーチューブ広報映像、売り場案内に地図追加、選好度調査などを追加して作ったウェブページです。
+            反応型ウェブで作られており、あらゆる環境で使用できます。"
+        },
+        "hash": [
+            {
+                "id": "1",
+                "tag": "#react"
+            },
+            {
+                "id": "2",
+                "tag": "#React-Query"
+            },
+            {
+                "id": "3",
+                "tag": "#Styled-components"
+            },
+            {
+                "id": "4",
+                "tag": "#React Router Dom"
+            }
+        ],
+        "socialurl": [
+            {
+                "id": "1",
+                "url": "https://team-project-flame.vercel.app/"
+            },
+            {
+                "id": "2",
+                "url": "https://github.com/llafleek098/nbc-outsourcing"
+            }
+        ]
+    },
+    "project3": {
+        "img": [
+            {
+                "id": "1",
+                "src": ""
+            },
+            {
+                "id": "2",
+                "src": ""
+            },
+            {
+                "id": "3",
+                "src": ""
+            },
+            {
+                "id": "4",
+                "src": ""
+            }
+        ],
+        "title": {
+            "title": "one's specialty project"
+        },
+        "subtitle": {
+            "subtitle": "team project"
+        },
+        "scrpit": {
+            "script": ""
+        },
+        "hash": [
+            {
+                "id": "1",
+                "tag": "#react"
+            },
+            {
+                "id": "2",
+                "tag": "#JSON-server"
+            },
+            {
+                "id": "3",
+                "tag": "#Styled-components"
+            },
+            {
+                "id": "4",
+                "tag": "#supabase"
+            }
+        ],
+        "socialurl": [
+            {
+                "id": "1",
+                "url": ""
+            },
+            {
+                "id": "2",
+                "url": "https://github.com/byeongtaek2023/anima"
+            }
+        ]
+    },
+    "project4": {
+        "img": [
+            {
+                "id": "1",
+                "src": ""
+            },
+            {
+                "id": "2",
+                "src": ""
+            },
+            {
+                "id": "3",
+                "src": ""
+            },
+            {
+                "id": "4",
+                "src": ""
+            }
+        ],
+        "title": {
+            "title": "Boot Camp Final Project"
+        },
+        "subtitle": {
+            "subtitle": "team project"
+        },
+        "scrpit": {
+            "script": "reactを利用して作った4番目のプロジェクトです。
+            図書紹介サイト、中古本取引サイトなど一つのコンテンツのためにいちいち該当サイトを訪ねて入る煩わしさを減らし、本に対するすべてという主題で多様なコンテンツを私たちのサイトで全て利用できるように企画しました。"
+        },
+        "hash": [
+            {
+                "id": "1",
+                "tag": "#react"
+            },
+            {
+                "id": "2",
+                "tag": "#Node.js"
+            },
+            {
+                "id": "3",
+                "tag": "#express"
+            },
+            {
+                "id": "4",
+                "tag": "#Styled-components"
+            },
+            {
+                "id": "5",
+                "tag": "#supabase"
+            },
+            {
+                "id": "6",
+                "tag": "#Recoil"
+            }
+        ],
+        "socialurl": [
+            {
+                "id": "1",
+                "url": "https://book-er.site/"
+            },
+            {
+                "id": "2",
+                "url": "https://github.com/laluniax/booker"
+            }
+        ]
+    },
+    "project5": {
+        "img": [
+            {
+                "id": "1",
+                "src": ""
+            },
+            {
+                "id": "2",
+                "src": ""
+            },
+            {
+                "id": "3",
+                "src": ""
+            },
+            {
+                "id": "4",
+                "src": ""
+            }
+        ],
+        "title": {
+            "title": "PORTFOLIO"
+        },
+        "subtitle": {
+            "subtitle": "personal project"
+        },
+        "scrpit": {
+            "script": ""
+        },
+        "hash": [
+            {
+                "id": "1",
+                "tag": "#react"
+            },
+            {
+                "id": "2",
+                "tag": "#material - MUI"
+            },
+            {
+                "id": "3",
+                "tag": "#JSON"
+            }
+        ],
+        "socialurl": [
+            {
+                "id": "1",
+                "url": ""
+            },
+            {
+                "id": "2",
+                "url": "https://github.com/takoyakki0609/portfolio"
+            }
+        ]
+    }
+}
