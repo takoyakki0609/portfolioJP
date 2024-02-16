@@ -3,7 +3,7 @@
         {
             "src": "https://raw.githubusercontent.com/takoyakki0609/portfolio/main/src/assets/html5.png",
             "title": "HTML5",
-            "inner": "ウェブアクセシビリティ、標準性を遵守し、セマンティックタグを利用してマークアップすることができます。Mui、Tailwindなどのcssライブラリを使用することができます。"
+            "inner": "ウェブアクセシビリティと標準性を遵守し、セマンティックタグを使用してマークアップすることができます。"
         },
         {
             "src": "https://raw.githubusercontent.com/takoyakki0609/portfolio/main/src/assets/css3.png",

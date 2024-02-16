@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
-import { Box } from '@mui/material';
-import WorkSlide from '../components/WorkSlide';
+import WorkSlide from '../components/workslide/WorkSlide';
 
 const Container = styled('div')({
+  width: '100%',
   color: '#22A39F',
+  backgroundColor: '#0F0F0F',
 });
 
 export default function Project() {
