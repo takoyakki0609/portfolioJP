@@ -11,9 +11,14 @@
             "inner": "position、displayを適切に使用して反応型ウェブを適用することができます。"
         },
         {
+            "src": "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/ts.png?raw=true",
+            "title": "TypeScript",
+            "inner": "Reactで基本提供されるProps用のTypeを理解し、使用することができます。"
+        },
+        {
             "src": "https://raw.githubusercontent.com/takoyakki0609/portfolio/main/src/assets/js.png",
-            "title": "Javascript",
-            "inner": "Javascriptの配列、メソッド、DOMを理解し、様々な状況に適用することができます。typescriptを使用することができます。"
+            "title": "JavaScript",
+            "inner": "JavaScriptの配列、メソッド、DOMを理解し、様々な状況に適用することができます。typescriptを使用することができます。"
         },
         {
             "src": "https://raw.githubusercontent.com/takoyakki0609/portfolio/main/src/assets/sass.png",

@@ -84,6 +84,7 @@ export const Pstyle = styled('p')({
 export const SpanStyle = styled('span')({
   fontSize: '0.8rem',
   paddingRight: '15px',
+  textAlign: 'left',
 });
 
 export const StackTitleBox = styled('div')({
