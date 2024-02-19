@@ -9,10 +9,10 @@ const TopPage = () => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       if (hscrollLeftRef.current) {
-        hscrollLeftRef.current.style.left = `${-3 * scrollTop}px`;
+        hscrollLeftRef.current.style.left = `${-0.5 * scrollTop}px`;
       }
       if (hscrollRightRef.current) {
-        hscrollRightRef.current.style.left = `${3 * scrollTop}px`;
+        hscrollRightRef.current.style.left = `${0.5 * scrollTop}px`;
       }
     };
 

@@ -9,7 +9,7 @@ export const Container = styled('div')({
     'linear-gradient(0deg, rgb(2, 7, 21) 32%, rgba(34,40,49,1) 73%, rgba(0,0,0,0) 100%)',
 });
 export const ProjectWrapper = styled('div')({
-  width: '1200px',
+  width: '75rem',
 });
 
 export const Title = styled('h2')({

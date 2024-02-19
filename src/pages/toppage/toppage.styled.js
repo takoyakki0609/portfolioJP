@@ -28,6 +28,10 @@ export const Frame = styled.div`
     width: 40vh;
     height: 40vh;
   }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 60vh;
+    height: 60vh;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -87,6 +91,23 @@ export const Text = styled.h1`
     font-size: 4rem;
     &.left {
       margin-left: -230px;
+    }
+    &.right {
+      margin-right: -130px;
+    }
+    &::before {
+      content: attr(data-content);
+      position: absolute;
+      z-index: 1;
+      background-clip: text;
+      -webkit-text-stroke: 1px #00adb5;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 6rem;
+    &.left {
+      margin-left: -300px;
     }
     &.right {
       margin-right: -130px;

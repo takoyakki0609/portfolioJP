@@ -40,20 +40,23 @@ export const Container = styled.section`
 `;
 
 export const InnerContainer = styled.div`
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0.1875rem 0.5rem;
   background-color: rgb(2, 7, 21);
-  width: 600px;
+  width: 37.5rem;
   padding: 1.5rem 2.3rem;
   display: flex;
   align-items: center;
   transition: 300ms ease;
   @media (min-width: 375px) and (max-width: 480px) {
-    width: 370px;
+    width: 23.125rem;
     background-color: transparent;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     width: 100%;
     background-color: transparent;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 100%;
   }
 `;
 
@@ -72,6 +75,11 @@ export const ImageContentWrap = styled.div`
   }
   @media (min-width: 481px) and (max-width: 767px) {
     box-sizing: border-box;
+    justify-content: space-between;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    box-sizing: border-box;
+    justify-content: space-between;
   }
 `;
 export const MainImageWrap = styled.div`
@@ -101,6 +109,8 @@ export const PreviewImageWrapper = styled.div`
   }
   @media (min-width: 481px) and (max-width: 767px) {
   }
+  @media (min-width: 768px) and (max-width: 991px) {
+  }
 `;
 
 export const PreviewImage = styled.img`
@@ -114,6 +124,9 @@ export const PreviewImage = styled.img`
     border: 2px solid #eeeeee;
   }
   @media (min-width: 481px) and (max-width: 767px) {
+    width: 100%;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
     width: 100%;
   }
 `;
@@ -155,6 +168,14 @@ export const IconButton = styled.div`
     position: absolute;
     bottom: -0.5rem;
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    position: absolute;
+    bottom: 0.45rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    position: absolute;
+    bottom: 0.8rem;
+  }
 `;
 export const ArrowBackIosNewIcon = styled.div`
   position: relative;
@@ -174,8 +195,12 @@ export const ArrowBackIosNewIcon = styled.div`
     height: 50px;
   }
   @media (min-width: 481px) and (max-width: 767px) {
+    margin-right: 20rem;
     width: 60px;
     height: 60px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-right: 25rem;
   }
 `;
 
@@ -194,8 +219,12 @@ export const ArrowForwardIosIcon = styled.div`
     height: 50px;
   }
   @media (min-width: 481px) and (max-width: 767px) {
+    margin-left: 20rem;
     width: 60px;
     height: 60px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-left: 25rem;
   }
 `;
 
@@ -219,7 +248,10 @@ export const TagUl = styled.ul`
     font-size: 8px;
   }
   @media (min-width: 481px) and (max-width: 767px) {
-    font-size: 8.6px;
+    font-size: 0.6rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 1rem;
   }
 `;
 export const UrlUl = styled.ul`
@@ -251,6 +283,9 @@ export const IndicatorContainer = styled.div`
   }
   @media (min-width: 481px) and (max-width: 767px) {
     padding: 2rem 0;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 3rem 0;
   }
 `;
 export const Indicator = styled.div`

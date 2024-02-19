@@ -6,7 +6,7 @@ export const Container = styled.div`
   font-family: Pretendard JP;
   font-weight: 700;
   height: 100vh;
-  max-width: 1200px;
+  max-width: 75rem;
   display: flex;
   justify-content: center;
   transition: 300ms ease;
@@ -17,12 +17,15 @@ export const Container = styled.div`
   @media (min-width: 481px) and (max-width: 767px) {
     display: block;
   }
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: block;
+  }
 `;
 
 export const ImgBox = styled.div`
-  width: 480px;
+  width: 30rem;
   height: 100vh;
-  min-height: 600px;
+  min-height: 37.5rem;
   background-color: gray;
   position: absolute;
   background: url(${bgImg}) 22% 0% no-repeat;
@@ -36,6 +39,12 @@ export const ImgBox = styled.div`
   }
   @media (min-width: 481px) and (max-width: 767px) {
     width: 100%;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 100%;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    max-height: 47rem;
   }
 `;
 
@@ -68,28 +77,44 @@ export const TitleBox = styled.h2`
   @media (min-width: 375px) and (max-width: 480px) {
     width: 100%;
     margin: 0;
-    padding-left: 20px;
-    font-size: 1.5rem;
+    padding-left: 1.25rem;
+    font-size: 1.3rem;
+    & span {
+      font-size: 3rem;
+    }
   }
   @media (min-width: 481px) and (max-width: 767px) {
     width: 100%;
-    margin-left: 40px;
-    padding-top: 20px;
+    margin-left: 2.5rem;
+    padding-top: 1.25rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 100%;
+    margin-left: 3.75rem;
+    padding-top: 2rem;
   }
 `;
 export const IntroBox = styled.div`
   color: #eeeeee;
   position: absolute;
   right: -17rem;
-  max-width: 580px;
-  margin-top: 90px;
+  max-width: 36.25rem;
+  margin-top: 5.625rem;
   transition: 300ms ease;
   @media (min-width: 375px) and (max-width: 480px) {
+    margin-top: 2rem;
     right: 0;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     right: -6rem;
-    margin-top: 40px;
+    margin-top: 2.5rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    right: 5rem;
+    margin-top: 3rem;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    right: 0;
   }
 `;
 
@@ -98,22 +123,31 @@ export const TextWrapper = styled.div`
 `;
 export const TitleWrapper = styled.div``;
 export const TextBox = styled.div`
+  position: relative;
+  z-index: 9999;
   width: 80%;
   margin-left: 70px;
   word-break: keep-all;
   line-height: 1.9rem;
   transition: 300ms ease;
   @media (min-width: 375px) and (max-width: 480px) {
-    padding-left: 1.2rem;
-    font-size: 0.7rem;
+    margin-left: 1.5rem;
+
+    font-size: 0.8rem;
   }
   @media (min-width: 481px) and (max-width: 767px) {
-    padding-left: 1.3rem;
+    width: 80%;
+    margin-left: 1rem;
     font-size: 1rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 100%;
+    margin-left: 0;
+    font-size: 1.3rem;
   }
 `;
 export const PointTag = styled.p`
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: #00adb5;
   font-family: Pretendard JP;
   transition: 300ms ease;
@@ -121,7 +155,10 @@ export const PointTag = styled.p`
     font-size: 1rem;
   }
   @media (min-width: 481px) and (max-width: 767px) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 1.5rem;
   }
 `;
 
@@ -130,9 +167,18 @@ export const TagBox = styled.div``;
 export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
+  @media (min-width: 375px) and (max-width: 480px) {
+    padding: 0;
+  }
   @media (min-width: 481px) and (max-width: 767px) {
     justify-content: flex-start;
-    gap: 20px;
+    gap: 1.25rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 0;
+    justify-content: flex-start;
+    gap: 3rem;
+    font-size: 1.2rem;
   }
 `;
 
@@ -195,6 +241,23 @@ export const TagDescription = styled.div`
     }
     &:nth-of-type(5) {
       right: 10rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    &:nth-of-type(1) {
+      left: -4rem;
+    }
+    &:nth-of-type(2) {
+      left: -2rem;
+    }
+    &:nth-of-type(3) {
+      left: 6rem;
+    }
+    &:nth-of-type(4) {
+      right: 8rem;
+    }
+    &:nth-of-type(5) {
+      right: 2rem;
     }
   }
 `;

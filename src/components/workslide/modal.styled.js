@@ -25,8 +25,12 @@ export const Container = styled.section`
 
   @media (min-width: 481px) and (max-width: 767px) {
     top: 0;
-    width: 650px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 700px;
+    height: 500px;
   }
 `;
 
