@@ -31,7 +31,7 @@ export default function Skills() {
                 return (
                   <St.StackImg key={idx}>
                     <img
-                      style={{ width: '50px' }}
+                      style={{ width: '50px', height: '50px' }}
                       src={front.src}
                       alt={front.title}
                     />

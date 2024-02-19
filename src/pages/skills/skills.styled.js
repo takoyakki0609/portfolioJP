@@ -8,7 +8,7 @@ export const Container = styled.section`
   overflow: visible;
   position: relative;
   background: rgb(2, 7, 21);
-  height: 120vh;
+  height: 100vh;
   font-family: Pretendard JP;
   @media (min-width: 375px) and (max-width: 480px) {
     display: block;
@@ -20,6 +20,12 @@ export const Container = styled.section`
     display: block;
     height: 100%;
     padding-bottom: 6rem;
+    width: 100%;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: block;
+    height: 100%;
+    padding-bottom: 3rem;
     width: 100%;
   }
 `;
@@ -68,6 +74,7 @@ export const StackUl = styled.ul`
   justify-content: flex-start;
   align-items: center;
   gap: 20px 10px;
+  width: 100%;
   margin: 0;
   @media (min-width: 375px) and (max-width: 480px) {
     gap: 0;
@@ -76,8 +83,12 @@ export const StackUl = styled.ul`
   }
   @media (min-width: 481px) and (max-width: 767px) {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 6px 12px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 6px 12px;
   }
 `;
@@ -136,16 +147,50 @@ export const StackImg = styled.li`
       transition: none;
     }
     &:hover {
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      padding-right: initial;
+      height: auto;
       border-radius: 0px;
+    }
+    .show-box {
+      opacity: 1;
+      left: initial;
+      transition: none;
     }
   }
   @media (min-width: 481px) and (max-width: 767px) {
+    box-sizing: border-box;
     text-align: left;
-    width: 94%;
+    width: 100%;
     overflow: visible;
-    height: 5rem;
-    padding: 0.625rem;
+    height: 9rem;
+    padding: 10px;
+    .show-box {
+      display: block;
+      position: static;
+      width: auto;
+      opacity: 1;
+      transition: none;
+      padding: 10px;
+    }
+    &:hover {
+      padding-right: initial;
+      height: 9rem;
+      box-shadow: none;
+      border-radius: 0px;
+    }
+    .show-box {
+      opacity: 1;
+      left: initial;
+      transition: none;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    overflow: visible;
+    height: 8rem;
+    padding: 10px;
     .show-box {
       display: block;
       position: static;
@@ -155,9 +200,15 @@ export const StackImg = styled.li`
       padding-left: 0.625rem;
     }
     &:hover {
-      padding: 0;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      padding-right: initial;
+      height: 8rem;
       border-radius: 0px;
+    }
+    .show-box {
+      opacity: 1;
+      left: initial;
+      transition: none;
+      display: flex;
     }
   }
 `;
@@ -182,7 +233,9 @@ export const SpanStyle = styled.span`
   padding-right: 15px;
   text-align: left;
   @media (min-width: 375px) and (max-width: 480px) {
-    padding: 0 0 0 15px;
+    display: block;
+    padding-left: 15px;
+    font-size: 0.7rem;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     padding: 0;

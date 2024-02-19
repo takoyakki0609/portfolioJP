@@ -12,9 +12,12 @@ export const Navigator = styled.div`
   @media (min-width: 375px) and (max-width: 767px) {
     display: none;
   }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 96%;
+  }
 `;
 export const NaviCategory = styled.button`
-  position: relative; /* 부모 요소에 상대 위치 추가 */
+  position: relative;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -33,24 +36,24 @@ export const NaviCategory = styled.button`
     position: absolute;
     height: 1px;
     width: 0;
-    background-color: #eeeeee; /* 배경 색상 추가 */
-  }
+    background-color: #eeeeee;
 
-  &:before {
-    transition: width 0.4s ease; /* 전환 효과 수정 */
-    left: 0;
-    right: 0;
-    bottom: 0px;
-  }
+    &:before {
+      transition: width 0.4s ease;
+      left: 0;
+      right: 0;
+      bottom: 0px;
+    }
 
-  &:after {
-    right: 2.2%;
-    bottom: 15px;
-    transition: width 0.4s ease; /* 전환 효과 수정 */
-  }
+    &:after {
+      right: 2.2%;
+      bottom: 15px;
+      transition: width 0.4s ease;
+    }
 
-  &:hover:before,
-  &:hover:after {
-    width: 97.8%; /* :hover 상태에서의 너비 조정 */
+    &:hover:before,
+    &:hover:after {
+      width: 97.8%;
+    }
   }
 `;
