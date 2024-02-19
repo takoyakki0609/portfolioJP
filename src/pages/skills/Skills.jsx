@@ -14,15 +14,16 @@ export default function Skills() {
       <St.StackWrapper>
         <div data-aos="fade-up">
           <St.MainTitle>TECH STACK</St.MainTitle>
-          <p style={{ color: '#EEEEEE' }}>
+          <St.IconComment>
             アイコンにマウスを置くと、詳細な説明が表示されます。
-          </p>
+          </St.IconComment>
         </div>
-        <div data-aos="fade-up " data-aos-anchor-placement="center-bottom">
+        <div data-aos="zoom-out">
           <St.StackTitleBox>
             <St.StackTitle># FRONT-END SKILL</St.StackTitle>
           </St.StackTitleBox>
         </div>
+
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
           <St.FrontStack>
             <St.StackUl>
@@ -44,7 +45,7 @@ export default function Skills() {
             </St.StackUl>
           </St.FrontStack>
         </div>
-        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div data-aos="zoom-out">
           <St.StackTitleBox>
             <St.StackTitle># USING TOOL</St.StackTitle>
           </St.StackTitleBox>

@@ -1,47 +1,86 @@
 import styled from '@emotion/styled';
 
-export const Container = styled('section')({
-  display: 'flex',
-  justifyContent: 'center',
-  textAlign: 'center',
-  boxSizing: 'border-box',
-  overflow: 'visible',
-  position: 'relative',
-  background: 'rgb(2, 7, 21)',
-  height: '120vh',
-  fontFamily: 'Pretendard JP',
-});
-export const StackWrapper = styled('div')({
-  maxWidth: '900px',
-});
+export const Container = styled.section`
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: visible;
+  position: relative;
+  background: rgb(2, 7, 21);
+  height: 120vh;
+  font-family: Pretendard JP;
+  @media (min-width: 375px) and (max-width: 480px) {
+    display: block;
+    height: 100%;
+    padding-bottom: 6rem;
+    width: 100%;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: block;
+    height: 100%;
+    padding-bottom: 6rem;
+    width: 100%;
+  }
+`;
 
-export const MainTitle = styled('h2')({
-  fontSize: '3rem',
-  marginBottom: '0',
-  color: '#00ADB5',
-  fontWeight: '900',
-});
+export const StackWrapper = styled.div`
+  max-width: 900px;
+  padding-top: 50px;
+  @media (min-width: 375px) and (max-width: 480px) {
+    max-width: 440px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    max-width: 700px;
+  }
+`;
+export const MainTitle = styled.h2`
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: #00adb5;
+  font-weight: 900;
+`;
 
-export const FrontStack = styled('div')({
-  display: 'flex',
-  justifyContent: 'flex-start',
-  alignItems: 'center',
-  minHeight: '150px',
-  marginTop: '4rem',
-});
+export const IconComment = styled.p`
+  color: #eeeeee;
+  @media (min-width: 375px) and (max-width: 480px) {
+    display: none;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: none;
+  }
+`;
 
-export const UsingTool = styled('div')({
-  display: 'flex',
-});
+export const FrontStack = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 150px;
+  margin-top: 4rem;
+`;
 
-export const StackUl = styled('ul')({
-  display: 'flex',
-  justifyContent: 'flex-start',
-  alignItems: 'center',
-  gap: '35px',
-  margin: '0',
-});
+export const UsingTool = styled.div`
+  display: flex;
+`;
 
+export const StackUl = styled.ul`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px 10px;
+  margin: 0;
+  @media (min-width: 375px) and (max-width: 480px) {
+    gap: 0;
+    flex-direction: column;
+    padding: 6px 12px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 6px 12px;
+  }
+`;
 export const StackImg = styled.li`
   position: relative;
   align-items: center;
@@ -83,33 +122,87 @@ export const StackImg = styled.li`
       left: 90px;
     }
   }
+  @media only screen and (max-width: 480px) {
+    text-align: left;
+    width: 100%;
+    overflow: visible;
+    height: auto;
+    padding: 15px 10px;
+    .show-box {
+      display: block;
+      position: static;
+      width: auto;
+      opacity: 1;
+      transition: none;
+    }
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      border-radius: 0px;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    text-align: left;
+    width: 94%;
+    overflow: visible;
+    height: 5rem;
+    padding: 0.625rem;
+    .show-box {
+      display: block;
+      position: static;
+      width: auto;
+      opacity: 1;
+      transition: none;
+      padding-left: 0.625rem;
+    }
+    &:hover {
+      padding: 0;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      border-radius: 0px;
+    }
+  }
 `;
 
-export const Pstyle = styled('p')({
-  padding: 0,
-  margin: 0,
-  fontSize: '1.1rem',
-  fontWeight: '700',
-  textAlign: 'left',
-  fontFamily: 'Pretendard JP',
-});
+export const Pstyle = styled.p`
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  font-family: Pretendard JP;
+  @media (min-width: 375px) and (max-width: 480px) {
+    padding: 0 0 0 15px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    padding: 0;
+  }
+`;
 
-export const SpanStyle = styled('span')({
-  fontSize: '0.8rem',
-  paddingRight: '15px',
-  textAlign: 'left',
-});
+export const SpanStyle = styled.span`
+  font-size: 0.8rem;
+  padding-right: 15px;
+  text-align: left;
+  @media (min-width: 375px) and (max-width: 480px) {
+    padding: 0 0 0 15px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    padding: 0;
+  }
+`;
+export const StackTitleBox = styled.div`
+  display: flex;
+  margin: 7.5rem 0 1.25rem 1.875rem;
+  color: #eeeeee;
+  @media (min-width: 375px) and (max-width: 480px) {
+    margin: 3rem 0 1.25rem 1.875rem;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+  }
+`;
 
-export const StackTitleBox = styled('div')({
-  display: 'flex',
-  margin: '120px 0 20px 30px',
-  color: '#EEEEEE',
-});
-
-export const StackTitle = styled('span')({
-  backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  borderRadius: '25px',
-  border: '1px solid rgb(50, 50, 60)',
-  boxShadow: '0 0 15px rgba(0, 0, 0, 0.7)',
-  padding: '6px 25px',
-});
+export const StackTitle = styled.span`
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.5625rem;
+  border: 1px solid rgb(50, 50, 60);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  padding: 0.375rem 1.5625rem;
+`;

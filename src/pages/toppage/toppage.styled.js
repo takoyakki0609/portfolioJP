@@ -1,20 +1,8 @@
-import styled, { keyframes } from 'styled-components';
-
-const animate = keyframes`
-  0% {
-    opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: rotate(45deg) translate(20px, 20px);
-  }
-`;
+import styled from 'styled-components';
+import { animate } from '../../styles/animation';
 
 export const Container = styled.section`
+  width: 100%;
   height: 100vh;
   overflow: hidden;
 `;
@@ -30,11 +18,27 @@ export const Frame = styled.div`
   max-height: 500px;
   background: #eeeeee;
   border-radius: 50%;
+
+  transition: 300ms ease;
+  @media (min-width: 375px) and (max-width: 480px) {
+    width: 25vh;
+    height: 25vh;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    width: 40vh;
+    height: 40vh;
+  }
 `;
 
 export const TextContainer = styled.div`
-  margin-top: 12%;
   overflow: hidden;
+`;
+
+export const ScrollWrapper = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 export const Text = styled.h1`
@@ -46,6 +50,8 @@ export const Text = styled.h1`
   position: relative;
   display: inline-block;
   margin: 0;
+
+  transition: 300ms ease;
   &.left {
     margin-left: -400px;
   }
@@ -60,11 +66,44 @@ export const Text = styled.h1`
     -webkit-text-stroke: 1px #00adb5;
     -webkit-text-fill-color: transparent;
   }
+  @media (min-width: 375px) and (max-width: 480px) {
+    font-size: 2.5rem;
+    &.left {
+      margin-left: -130px;
+    }
+    &.right {
+      margin-right: -70px;
+    }
+    &::before {
+      content: attr(data-content);
+      position: absolute;
+      z-index: 1;
+      background-clip: text;
+      -webkit-text-stroke: 1px #00adb5;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    font-size: 4rem;
+    &.left {
+      margin-left: -230px;
+    }
+    &.right {
+      margin-right: -130px;
+    }
+    &::before {
+      content: attr(data-content);
+      position: absolute;
+      z-index: 1;
+      background-clip: text;
+      -webkit-text-stroke: 1px #00adb5;
+      -webkit-text-fill-color: transparent;
+    }
+  }
 `;
 
 export const HScroll = styled.div`
   width: 100%;
-  height: 50%;
   text-align: center;
   position: relative;
   transition: all 1000ms ease-in-out;

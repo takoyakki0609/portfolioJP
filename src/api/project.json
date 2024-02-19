@@ -12,7 +12,6 @@
         "more": "ライブラリの使用を最大限自制しようと努力しましたが、時間の節約と性能最適化のためにAOSライブラリを使うようになりました。反応型ウェブは準備中です。",
         "hash": [
             "#react",
-            "#material - MUI",
             "#Styled-components",
             "#JSON",
             "AOS Library"
