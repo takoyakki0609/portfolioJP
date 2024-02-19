@@ -43,10 +43,10 @@
     },
     "project3": {
         "img": [
-            "",
-            "",
-            "",
-            ""
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj1.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj2.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj3.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj4.png?raw=true"
         ],
         "title": "one's specialty project",
         "subtitle": "team project",
@@ -59,11 +59,7 @@
             "#supabase"
         ],
         "siteUrl": [],
-        "githubUrl": [],
-        "socialurl": [
-            "",
-            "https://github.com/byeongtaek2023/anima"
-        ]
+        "githubUrl": "https://github.com/byeongtaek2023/anima"
     },
     "project4": {
         "img": [
@@ -83,7 +79,7 @@
             "#React Router Dom"
         ],
         "siteUrl": "https://nbc-outsourcing.vercel.app/",
-        "": "https://github.com/llafleek098/nbc-outsourcing"
+        "githubUrl": "https://github.com/llafleek098/nbc-outsourcing"
     },
     "project5": {
         "img": [

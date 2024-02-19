@@ -155,6 +155,7 @@ export const TagUl = styled('ul')({
   gap: '15px',
   padding: '0',
   color: '#EEEEEE',
+  fontSize: '12px',
   '& li': {
     padding: '6px 12px',
     backgroundColor: 'rgba(55, 55, 67, 0.7)',
