@@ -8,7 +8,7 @@ export const Container = styled('section')({
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  height: '30vh',
+  height: '80vh',
   width: '100%',
   background: 'rgb(2, 7, 21)',
 });
