@@ -43,7 +43,7 @@ console.log(
 
 const Home = () => {
   const sectionsRefs = {
-    topPage: useRef(null),
+    Main: useRef(null),
     about: useRef(null),
     project: useRef(null),
     skills: useRef(null),
@@ -98,7 +98,7 @@ const Home = () => {
           </St.NaviCategory>
         ))}
       </St.Navigator>
-      <div ref={sectionsRefs.topPage}>
+      <div ref={sectionsRefs.Main}>
         <TopPage />
       </div>
       <div ref={sectionsRefs.about}>
