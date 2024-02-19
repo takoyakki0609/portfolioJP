@@ -1,13 +1,19 @@
 import { Outlet } from 'react-router-dom';
-import Gnb from './header/Gnb';
 import Footer from './footer/Footer';
+
+import '../../index.css';
 
 const Layout = () => {
   return (
     <>
-      <Gnb />
-      <Outlet />
-      <Footer />
+      <div id="starContainer">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 };

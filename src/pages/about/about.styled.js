@@ -12,7 +12,7 @@ export const textGradient = keyframes`
 `;
 
 export const Container = styled('div')({
-  fontFamily: 'Apple SD Gothic Neo, sans-serif',
+  fontFamily: 'Pretendard JP',
   fontWeight: 700,
   height: '100vh',
   maxWidth: '1200px',
@@ -39,6 +39,7 @@ export const TitleBox = styled('h2')({
   fontSize: '3.2rem',
   lineHeight: '3.5rem',
   fontWeight: 700,
+  fontFamily: 'Pretendard JP',
 
   animation: `${textGradient} 8s linear infinite alternate`,
   background:
@@ -54,7 +55,7 @@ export const TitleBox = styled('h2')({
   },
 });
 export const IntroBox = styled('div')({
-  color: 'white',
+  color: '#EEEEEE',
   position: 'absolute',
   right: '-17rem',
   maxWidth: '580px',
@@ -71,7 +72,8 @@ export const TextBox = styled('div')({
 });
 export const PointTag = styled('p')({
   fontSize: '1.3rem',
-  color: '#22A39F',
+  color: '#00ADB5',
+  fontFamily: 'Pretendard JP',
 });
 export const TagBox = styled('div')({});
 export const TagList = styled('ul')({
@@ -80,7 +82,7 @@ export const TagList = styled('ul')({
 });
 export const Tag = styled('li')({
   listStyle: 'none',
-  color: 'white',
+  color: '#00ADB5',
   cursor: 'pointer',
   borderRadius: '1rem',
   paddin: 0,
@@ -94,16 +96,17 @@ export const DescriptionWrapper = styled('div')({
 export const TagDescription = styled('div')({
   position: 'absolute',
   transition: 'opacity 0.3s ease',
+  cursor: 'default',
 
-  '&:nth-child(3)': {
+  '&:nth-of-type(3)': {
     position: 'absolute',
     left: '10rem',
   },
-  '&:nth-child(4)': {
+  '&:nth-of-type(4)': {
     position: 'absolute',
     right: '3rem',
   },
-  '&:nth-child(5)': {
+  '&:nth-of-type(5)': {
     position: 'absolute',
     right: '-4rem',
   },

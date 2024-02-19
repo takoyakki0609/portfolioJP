@@ -1,4 +1,8 @@
 html {
+  overflow-x: hidden;
+}
+
+#starContainer {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
@@ -6,7 +10,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Montserrat' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -508,7 +512,7 @@ code {
   width: 3px;
   height: 3px;
   background: transparent;
-  box-shadow: 1073px 8519px #fff, 1432px 1675px #fff, 774px 970px #fff,
+  box-shadow: 1073px 2519px #fff, 1432px 1675px #fff, 774px 970px #fff,
     1737px 325px #fff, 63px 1107px #fff, 1360px 988px #fff, 1946px 1834px #fff,
     533px 1576px #fff, 1988px 1137px #fff, 1006px 945px #fff, 91px 1186px #fff,
     221px 1401px #fff, 1699px 399px #fff, 370px 1831px #fff, 575px 493px #fff,

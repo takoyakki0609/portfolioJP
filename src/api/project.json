@@ -13,10 +13,8 @@
             "#react",
             "#firebase"
         ],
-        "socialurl": [
-            "https://team-project-flame.vercel.app/",
-            "https://github.com/tjdsksro90/team-project"
-        ]
+        "siteUrl": "https://team-project-flame.vercel.app/",
+        "githubUrl": "https://github.com/tjdsksro90/team-project"
     },
     "project2": {
         "img": [
@@ -27,17 +25,16 @@
         ],
         "title": "outsourcing project",
         "subtitle": "team project",
-        "script": "reactを利用して作った最初の2番目のプロジェクトです。\\韓国のコーヒーブランドである「ペッダバン」で紹介ページのアウトソーシングを受けたと仮定して作ったウェブページで、反応型デザイン、ユーチューブ広報映像、売り場案内に地図追加、選好度調査などを追加して作ったウェブページです。\\n反応型ウェブで作られており、あらゆる環境で使用できます。",
+        "script": "reactを利用して作った2番目のプロジェクトです。\\n韓国のコーヒーブランドである「ペッダバン」で紹介ページのアウトソーシングを受けたと仮定して作ったウェブページで、反応型デザイン、ユーチューブ広報映像、売り場案内に地図追加、選好度調査などを追加して作ったウェブページです。",
+        "more": "担当業務はカカオトーク地図APIでした。 カカオトークの地図APIを利用して現在位置座標を受け取り、該当位置周辺の「ペッダバン」店舗を見せたり、位置検索を通じて検索した位置周辺の「ペッダバン」を見せるようにしました。 ",
         "hash": [
             "#react",
             "#React-Query",
             "#Styled-components",
             "#React Router Dom"
         ],
-        "socialurl": [
-            "https://nbc-outsourcing.vercel.app/",
-            "https://github.com/llafleek098/nbc-outsourcing"
-        ]
+        "siteUrl": "https://nbc-outsourcing.vercel.app/",
+        "": "https://github.com/llafleek098/nbc-outsourcing"
     },
     "project3": {
         "img": [
@@ -55,6 +52,8 @@
             "#Styled-components",
             "#supabase"
         ],
+        "siteUrl": [],
+        "githubUrl": [],
         "socialurl": [
             "",
             "https://github.com/byeongtaek2023/anima"
@@ -74,14 +73,11 @@
             "#react",
             "#Node.js",
             "#express",
-            "#Styled-components",
             "#supabase",
             "#Recoil"
         ],
-        "socialurl": [
-            "https://book-er.site/",
-            "https://github.com/laluniax/booker"
-        ]
+        "siteUrl": "https://book-er.site/",
+        "githubUrl": "https://github.com/laluniax/booker"
     },
     "project5": {
         "img": [
@@ -96,11 +92,10 @@
         "hash": [
             "#react",
             "#material - MUI",
+            "#Styled-components",
             "#JSON"
         ],
-        "socialurl": [
-            "",
-            "https://github.com/takoyakki0609/portfolio"
-        ]
+        "siteUrl": "",
+        "githubUrl": "https://github.com/takoyakki0609/portfolio"
     }
 }

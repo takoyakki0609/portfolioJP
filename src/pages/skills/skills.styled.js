@@ -6,9 +6,20 @@ export const Container = styled('section')({
   textAlign: 'center',
   boxSizing: 'border-box',
   overflow: 'visible',
+  position: 'relative',
+  background: 'rgb(2, 7, 21)',
+  height: '120vh',
+  fontFamily: 'Pretendard JP',
 });
 export const StackWrapper = styled('div')({
   maxWidth: '900px',
+});
+
+export const MainTitle = styled('h2')({
+  fontSize: '3rem',
+  marginBottom: '0',
+  color: '#00ADB5',
+  fontWeight: '900',
 });
 
 export const FrontStack = styled('div')({
@@ -16,6 +27,7 @@ export const FrontStack = styled('div')({
   justifyContent: 'flex-start',
   alignItems: 'center',
   minHeight: '150px',
+  marginTop: '4rem',
 });
 
 export const UsingTool = styled('div')({
@@ -59,7 +71,7 @@ export const StackImg = styled.li`
     transition: left 250ms ease, opacity 400ms ease;
     cursor: default;
 
-    color: white;
+    color: #eeeeee;
   }
   &:hover {
     padding-right: 180px;
@@ -79,6 +91,7 @@ export const Pstyle = styled('p')({
   fontSize: '1.1rem',
   fontWeight: '700',
   textAlign: 'left',
+  fontFamily: 'Pretendard JP',
 });
 
 export const SpanStyle = styled('span')({
@@ -89,8 +102,8 @@ export const SpanStyle = styled('span')({
 
 export const StackTitleBox = styled('div')({
   display: 'flex',
-  margin: '80px 0 20px 30px',
-  color: 'white',
+  margin: '120px 0 20px 30px',
+  color: '#EEEEEE',
 });
 
 export const StackTitle = styled('span')({

@@ -1,9 +1,7 @@
-import { Box } from '@mui/material';
+import * as St from './footer.styled';
 
 export default function Footer() {
   return (
-    <Box sx={{ textAlign: 'center', height: '100px', marginTop: '100px' }}>
-      Copyright ⓒ 2024. JIYE All rights reserved
-    </Box>
+    <St.Container>Copyright ⓒ 2024. JIYE All rights reserved</St.Container>
   );
 }

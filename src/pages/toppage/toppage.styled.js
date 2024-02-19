@@ -28,7 +28,7 @@ export const Frame = styled.div`
   height: 75vh;
   max-width: 500px;
   max-height: 500px;
-  background: white;
+  background: #eeeeee;
   border-radius: 50%;
 `;
 
@@ -38,10 +38,11 @@ export const TextContainer = styled.div`
 `;
 
 export const Text = styled.h1`
+  font-family: Montserrat;
   font-size: 10rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: #22a39f;
+  color: #00adb5;
   position: relative;
   display: inline-block;
   margin: 0;
@@ -56,7 +57,7 @@ export const Text = styled.h1`
     position: absolute;
     z-index: 1;
     background-clip: text;
-    -webkit-text-stroke: 1px #22a39f;
+    -webkit-text-stroke: 1px #00adb5;
     -webkit-text-fill-color: transparent;
   }
 `;
@@ -70,6 +71,7 @@ export const HScroll = styled.div`
 `;
 
 export const ScrollIndicator = styled.span`
+  font-family: Pretendard JP;
   color: rgba(255, 255, 255, 0.5);
   position: absolute;
   font-size: 1rem;
