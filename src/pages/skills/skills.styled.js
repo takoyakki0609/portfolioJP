@@ -10,7 +10,13 @@ export const Container = styled.section`
   background: rgb(2, 7, 21);
   height: 120vh;
   font-family: Pretendard JP;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
+    display: block;
+    height: 100%;
+    padding-bottom: 6rem;
+    width: 100%;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
     display: block;
     height: 100%;
     padding-bottom: 6rem;
@@ -21,8 +27,11 @@ export const Container = styled.section`
 export const StackWrapper = styled.div`
   max-width: 900px;
   padding-top: 50px;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     max-width: 440px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    max-width: 700px;
   }
 `;
 export const MainTitle = styled.h2`
@@ -34,7 +43,10 @@ export const MainTitle = styled.h2`
 
 export const IconComment = styled.p`
   color: #eeeeee;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
+    display: none;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
     display: none;
   }
 `;
@@ -55,11 +67,17 @@ export const StackUl = styled.ul`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 35px;
+  gap: 20px 10px;
   margin: 0;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     gap: 0;
     flex-direction: column;
+    padding: 6px 12px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
     padding: 6px 12px;
   }
 `;
@@ -105,6 +123,7 @@ export const StackImg = styled.li`
     }
   }
   @media only screen and (max-width: 480px) {
+    text-align: left;
     width: 100%;
     overflow: visible;
     height: auto;
@@ -121,6 +140,26 @@ export const StackImg = styled.li`
       border-radius: 0px;
     }
   }
+  @media (min-width: 481px) and (max-width: 767px) {
+    text-align: left;
+    width: 94%;
+    overflow: visible;
+    height: 5rem;
+    padding: 0.625rem;
+    .show-box {
+      display: block;
+      position: static;
+      width: auto;
+      opacity: 1;
+      transition: none;
+      padding-left: 0.625rem;
+    }
+    &:hover {
+      padding: 0;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      border-radius: 0px;
+    }
+  }
 `;
 
 export const Pstyle = styled.p`
@@ -130,8 +169,11 @@ export const Pstyle = styled.p`
   font-weight: 700;
   text-align: left;
   font-family: Pretendard JP;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     padding: 0 0 0 15px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    padding: 0;
   }
 `;
 
@@ -139,16 +181,21 @@ export const SpanStyle = styled.span`
   font-size: 0.8rem;
   padding-right: 15px;
   text-align: left;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     padding: 0 0 0 15px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    padding: 0;
   }
 `;
 export const StackTitleBox = styled.div`
   display: flex;
   margin: 7.5rem 0 1.25rem 1.875rem;
   color: #eeeeee;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     margin: 3rem 0 1.25rem 1.875rem;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
   }
 `;
 

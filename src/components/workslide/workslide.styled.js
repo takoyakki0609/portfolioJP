@@ -46,8 +46,13 @@ export const InnerContainer = styled.div`
   padding: 1.5rem 2.3rem;
   display: flex;
   align-items: center;
-  @media only screen and (max-width: 480px) {
+  transition: 300ms ease;
+  @media (min-width: 375px) and (max-width: 480px) {
     width: 370px;
+    background-color: transparent;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    width: 100%;
     background-color: transparent;
   }
 `;
@@ -62,7 +67,10 @@ export const ImageContentWrap = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
+    box-sizing: border-box;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
     box-sizing: border-box;
   }
 `;
@@ -87,8 +95,11 @@ export const MainImage = styled.img`
 export const PreviewImageWrapper = styled.div`
   width: 22%;
   box-sizing: border-box;
-  @media only screen and (max-width: 480px) {
+  transition: 300ms ease;
+  @media (min-width: 375px) and (max-width: 480px) {
     display: none;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
   }
 `;
 
@@ -101,6 +112,9 @@ export const PreviewImage = styled.img`
   transition: 200ms ease;
   &:hover {
     border: 2px solid #eeeeee;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    width: 100%;
   }
 `;
 export const ProjectWrapper = styled.div`
@@ -137,7 +151,7 @@ export const Info = styled.p`
 
 export const IconButton = styled.div`
   cursor: pointer;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     position: absolute;
     bottom: -0.5rem;
   }
@@ -153,11 +167,15 @@ export const ArrowBackIosNewIcon = styled.div`
   filter: invert(100%);
   transform: rotate(90deg);
   animation: ${leftMovingAnimation} 1500ms ease-in-out infinite;
-
-  @media only screen and (max-width: 480px) {
+  transition: 300ms ease;
+  @media (min-width: 375px) and (max-width: 480px) {
     margin-right: 12rem;
     width: 50px;
     height: 50px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    width: 60px;
+    height: 60px;
   }
 `;
 
@@ -170,10 +188,14 @@ export const ArrowForwardIosIcon = styled.div`
   filter: invert(100%);
   transform: rotate(-90deg);
   animation: ${rightMovingAnimation} 1500ms ease-in-out infinite;
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     margin-left: 12rem;
     width: 50px;
     height: 50px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    width: 60px;
+    height: 60px;
   }
 `;
 
@@ -193,8 +215,11 @@ export const TagUl = styled.ul`
       transform: scale(1.1);
     }
   }
-  @media only screen and (max-width: 480px) {
+  @media (min-width: 375px) and (max-width: 480px) {
     font-size: 8px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    font-size: 8.6px;
   }
 `;
 export const UrlUl = styled.ul`
@@ -220,8 +245,12 @@ export const IndicatorContainer = styled.div`
   display: flex;
   justify-content: center;
   padding: 5.8125rem 0;
-  @media only screen and (max-width: 480px) {
+  transition: 300ms ease;
+  @media (min-width: 375px) and (max-width: 480px) {
     padding: 0.6rem 0;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    padding: 2rem 0;
   }
 `;
 export const Indicator = styled.div`

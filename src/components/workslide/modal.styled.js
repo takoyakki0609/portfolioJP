@@ -10,11 +10,24 @@ export const Container = styled.section`
   align-items: center;
   z-index: 1000;
 
-  width: 380px;
-  height: 300px;
+  width: 850px;
+  height: 600px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  transition: 300ms ease;
+  @media (min-width: 375px) and (max-width: 480px) {
+    top: -5%;
+    width: 350px;
+    height: 200px;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    top: 0;
+    width: 650px;
+    height: 400px;
+  }
 `;
 
 export const Modal = styled.div`

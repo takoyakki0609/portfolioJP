@@ -27,16 +27,18 @@ const TopPage = () => {
     <>
       <St.Container>
         <St.TextContainer>
-          <St.HScroll ref={hscrollLeftRef}>
-            <St.Text className="left" data-content="KIM JIYE">
-              KIM JIYE
-            </St.Text>
-          </St.HScroll>
-          <St.HScroll ref={hscrollRightRef}>
-            <St.Text className="right" data-content="FRONT-END.">
-              FRONT-END.
-            </St.Text>
-          </St.HScroll>
+          <St.ScrollWrapper>
+            <St.HScroll ref={hscrollLeftRef}>
+              <St.Text className="left" data-content="KIM JIYE">
+                KIM JIYE
+              </St.Text>
+            </St.HScroll>
+            <St.HScroll ref={hscrollRightRef}>
+              <St.Text className="right" data-content="FRONT-END.">
+                FRONT-END.
+              </St.Text>
+            </St.HScroll>
+          </St.ScrollWrapper>
         </St.TextContainer>
         <St.Frame />
       </St.Container>
