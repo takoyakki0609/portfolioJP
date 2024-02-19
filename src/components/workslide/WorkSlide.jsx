@@ -108,12 +108,15 @@ export default function WorkSlide() {
                 </St.TagUl>
                 <St.UrlUl>
                   <St.UrlWrapper>
-                    <St.SiteWrapper
-                      href="{projects[currentIdx].siteUrl}"
-                      target="_blank"
-                    >
-                      <St.Site>サイトへのアクセス</St.Site>
-                    </St.SiteWrapper>
+                    {projects[currentIdx].siteUrl &&
+                      projects[currentIdx].siteUrl.length > 0 && (
+                        <St.SiteWrapper
+                          href="{projects[currentIdx].siteUrl}"
+                          target="_blank"
+                        >
+                          <St.Site>サイトへのアクセス</St.Site>
+                        </St.SiteWrapper>
+                      )}
                   </St.UrlWrapper>
                   <St.UrlWrapper>
                     <St.GithubWrapper
