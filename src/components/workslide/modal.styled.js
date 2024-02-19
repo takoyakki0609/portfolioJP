@@ -1,28 +1,28 @@
 import styled from '@emotion/styled';
 
-export const Container = styled('section')({
-  position: 'absolute',
-  top: '-10%',
-  bottom: '0',
-  backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  zIndex: '1000',
+export const Container = styled.section`
+  position: absolute;
+  top: -10%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 
-  width: '850px',
-  height: '600px',
-  boxShadow:
-    'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',
-});
+  width: 380px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+`;
 
-export const Modal = styled('div')({
-  background: 'white',
-  padding: '2rem',
-  borderRadius: '5px',
-  position: 'relative',
-});
-
+export const Modal = styled.div`
+  background-color: #eeeeee;
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+`;
 export const ModalButton = styled.a`
   position: absolute;
   top: 0;

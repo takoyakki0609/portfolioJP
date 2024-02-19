@@ -44,7 +44,9 @@ export default function About() {
           <St.IntroBox>
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
               <St.TextBox>
-                こんにちは。執拗にフロントエンド開発者を夢見るキムジエです。
+                こんにちは。
+                <br />
+                執拗にフロントエンド開発者を夢見るキムジエです。
                 <St.PointTag>
                   " 執拗だ:［形容詞］非常に頑固でしつこい。」
                 </St.PointTag>

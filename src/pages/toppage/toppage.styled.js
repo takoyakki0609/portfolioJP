@@ -1,22 +1,15 @@
-import styled, { keyframes } from 'styled-components';
-
-const animate = keyframes`
-  0% {
-    opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: rotate(45deg) translate(20px, 20px);
-  }
-`;
+import styled from 'styled-components';
+import { animate } from '../../styles/animation';
 
 export const Container = styled.section`
+  width: 100%;
   height: 100vh;
   overflow: hidden;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    overflow: hidden;
+  }
 `;
 
 export const Frame = styled.div`
@@ -30,11 +23,18 @@ export const Frame = styled.div`
   max-height: 500px;
   background: #eeeeee;
   border-radius: 50%;
+  @media only screen and (max-width: 480px) {
+    width: 25vh;
+    height: 25vh;
+  }
 `;
 
 export const TextContainer = styled.div`
   margin-top: 12%;
   overflow: hidden;
+  @media only screen and (max-width: 480px) {
+    margin-top: 70%;
+  }
 `;
 
 export const Text = styled.h1`
@@ -59,6 +59,23 @@ export const Text = styled.h1`
     background-clip: text;
     -webkit-text-stroke: 1px #00adb5;
     -webkit-text-fill-color: transparent;
+  }
+  @media only screen and (max-width: 480px) {
+    font-size: 2.5rem;
+    &.left {
+      margin-left: -130px;
+    }
+    &.right {
+      margin-right: -30px;
+    }
+    &::before {
+      content: attr(data-content);
+      position: absolute;
+      z-index: 1;
+      background-clip: text;
+      -webkit-text-stroke: 1px #00adb5;
+      -webkit-text-fill-color: transparent;
+    }
   }
 `;
 
