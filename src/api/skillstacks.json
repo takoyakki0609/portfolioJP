@@ -11,7 +11,7 @@
             "inner": "position、displayを適切に使用して反応型ウェブを適用することができます。"
         },
         {
-            "src": "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/ts.png",
+            "src": "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/main/src/assets/ts.png",
             "title": "TypeScript",
             "inner": "Reactで基本提供されるProps用のTypeを理解し、使用することができます。"
         },
