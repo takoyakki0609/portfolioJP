@@ -1,10 +1,10 @@
 {
     "project1": {
         "img": [
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj1.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj2.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj3.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj4.png?raw=true"
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj1/pj1.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj1/pj2.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj1/pj3.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj1/pj4.png"
         ],
         "title": "PORTFOLIO",
         "subtitle": "personal project",
@@ -22,10 +22,10 @@
     },
     "project2": {
         "img": [
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj2.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj3.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj1.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj4.png?raw=true"
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj2/pj2.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj2/pj3.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj2/pj4.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj2/pj1.png"
         ],
         "title": "Boot Camp Final Project",
         "subtitle": "team project",
@@ -43,10 +43,10 @@
     },
     "project3": {
         "img": [
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj1.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj2.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj3.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj3/pj4.png?raw=true"
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj3/pj1.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj3/pj2.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj3/pj3.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj3/pj4.png"
         ],
         "title": "one's specialty project",
         "subtitle": "team project",
@@ -63,10 +63,10 @@
     },
     "project4": {
         "img": [
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj1.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj2.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj3.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj4.png?raw=true"
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj4/pj1.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj4/pj2.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj4/pj3.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj4/pj4.png"
         ],
         "title": "outsourcing project",
         "subtitle": "team project",
@@ -83,10 +83,10 @@
     },
     "project5": {
         "img": [
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj1.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj2.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj3.png?raw=true",
-            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj4.png?raw=true"
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj5/pj1.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj5/pj2.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj5/pj3.png",
+            "https://raw.githubusercontent.com/takoyakki0609/portfolioJP/jp/src/assets/project/pj5/pj4.png"
         ],
         "title": "news feed project",
         "subtitle": "team project",
