@@ -99,6 +99,7 @@ export const TextWrapper = styled.div`
 export const TitleWrapper = styled.div``;
 export const TextBox = styled.div`
   width: 80%;
+  margin-left: 70px;
   word-break: keep-all;
   line-height: 1.9rem;
   transition: 300ms ease;
