@@ -1,0 +1,105 @@
+{
+    "project1": {
+        "img": [
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj1.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj2.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj3.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj5/pj4.png?raw=true"
+        ],
+        "title": "PORTFOLIO",
+        "subtitle": "personal project",
+        "script": "ポートフォリオ用に作ったサイトで、今まで作ってきたプロジェクトを振り返るのに役立ちました",
+        "more": "ライブラリの使用を最大限自制しようと努力しましたが、時間の節約と性能最適化のためにAOSライブラリを使うようになりました。",
+        "hash": [
+            "#react",
+            "#material - MUI",
+            "#Styled-components",
+            "#JSON",
+            "AOS Library"
+        ],
+        "siteUrl": "",
+        "githubUrl": "https://github.com/takoyakki0609/portfolio"
+    },
+    "project2": {
+        "img": [
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj2.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj3.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj1.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj4/pj4.png?raw=true"
+        ],
+        "title": "Boot Camp Final Project",
+        "subtitle": "team project",
+        "script": "reactを利用して作った4番目のプロジェクトです。\\n図書紹介サイト、中古本取引サイトなど一つのコンテンツのためにいちいち該当サイトを訪ねて入る煩わしさを減らし、本に対するすべてという主題で多様なコンテンツを私たちのサイトで全て利用できるように企画しました。",
+        "more": "",
+        "hash": [
+            "#react",
+            "postgreSQL",
+            "#express",
+            "#supabase",
+            "#Recoil"
+        ],
+        "siteUrl": "https://book-er.site/",
+        "githubUrl": "https://github.com/laluniax/booker"
+    },
+    "project3": {
+        "img": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "title": "one's specialty project",
+        "subtitle": "team project",
+        "script": "reactを利用して作った3番目のプロジェクトです。\\nアニメーションリストを出力して見せてくれるプロジェクトです。\\n reactとsupabase type scriptを使用しています。",
+        "more": "アニメーションAPIが別に存在しなかったため、アニメーションサイトからJSONデータを取得する方式を取り、CRUDをログインしなければならないようにしました。 サイトを補完中のため、配布されたURLは別途存在しません。",
+        "hash": [
+            "#react",
+            "#JSON-server",
+            "#Styled-components",
+            "#supabase"
+        ],
+        "siteUrl": [],
+        "githubUrl": [],
+        "socialurl": [
+            "",
+            "https://github.com/byeongtaek2023/anima"
+        ]
+    },
+    "project4": {
+        "img": [
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj1.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj2.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj3.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj2/pj4.png?raw=true"
+        ],
+        "title": "outsourcing project",
+        "subtitle": "team project",
+        "script": "reactを利用して作った2番目のプロジェクトです。\\n韓国のコーヒーブランドである「ペッダバン」で紹介ページのアウトソーシングを受けたと仮定して作ったウェブページで、反応型デザイン、ユーチューブ広報映像、売り場案内に地図追加、選好度調査などを追加して作ったウェブページです。",
+        "more": "担当業務はカカオトーク地図APIでした。 カカオトークの地図APIを利用して現在位置座標を受け取り、該当位置周辺の「ペッダバン」店舗を見せたり、位置検索を通じて検索した位置周辺の「ペッダバン」を見せるようにしました。 ",
+        "hash": [
+            "#react",
+            "#React-Query",
+            "#Styled-components",
+            "#React Router Dom"
+        ],
+        "siteUrl": "https://nbc-outsourcing.vercel.app/",
+        "": "https://github.com/llafleek098/nbc-outsourcing"
+    },
+    "project5": {
+        "img": [
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj1.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj2.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj3.png?raw=true",
+            "https://github.com/takoyakki0609/portfolio/blob/jp/src/assets/project/pj1/pj4.png?raw=true"
+        ],
+        "title": "news feed project",
+        "subtitle": "team project",
+        "script": "reactを利用して作った初めてのチームプロジェクトです。\\nfirebase + CRUDを利用して簡単なnews feedサイトを製作しvercelで配布しました。",
+        "hash": [
+            "#react",
+            "#firebase"
+        ],
+        "siteUrl": "https://team-project-flame.vercel.app/",
+        "githubUrl": "https://github.com/tjdsksro90/team-project"
+    }
+}

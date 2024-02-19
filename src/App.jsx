@@ -1,4 +1,4 @@
-import { Container } from '@mui/material';
+import styled from '@emotion/styled';
 import Router from './shared/Router';
 export default function App() {
   return (
@@ -7,3 +7,5 @@ export default function App() {
     </Container>
   );
 }
+
+const Container = styled('div')({});
