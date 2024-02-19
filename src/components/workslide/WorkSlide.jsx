@@ -111,7 +111,7 @@ export default function WorkSlide() {
                     {projects[currentIdx].siteUrl &&
                       projects[currentIdx].siteUrl.length > 0 && (
                         <St.SiteWrapper
-                          href="{projects[currentIdx].siteUrl}"
+                          href={projects[currentIdx].siteUrl}
                           target="_blank"
                         >
                           <St.Site>サイトへのアクセス</St.Site>
@@ -120,7 +120,7 @@ export default function WorkSlide() {
                   </St.UrlWrapper>
                   <St.UrlWrapper>
                     <St.GithubWrapper
-                      href="{projects[currentIdx].githubUrl}"
+                      href={projects[currentIdx].githubUrl}
                       target="_blank"
                     >
                       <St.Github>GitHub</St.Github>
