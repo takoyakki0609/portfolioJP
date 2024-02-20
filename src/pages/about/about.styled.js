@@ -103,7 +103,7 @@ export const IntroBox = styled.div`
   margin-top: 5.625rem;
   transition: 300ms ease;
   @media (min-width: 375px) and (max-width: 480px) {
-    margin-top: 1rem;
+    margin-top: 0.3rem;
     right: 0;
     width: 24.375rem;
   }
