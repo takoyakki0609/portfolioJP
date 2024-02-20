@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import arrow from '../../assets/arrow_1.png';
 import go from '../../assets/go.png';
+import me from '../../assets/readme.png';
 import githubIcon from '../../assets/github2.png';
 import { keyframes } from '@emotion/react';
 
@@ -257,7 +258,7 @@ export const TagUl = styled.ul`
 export const UrlUl = styled.ul`
   list-style: none;
   display: flex;
-  gap: 35px;
+  gap: 10px;
   padding: 0;
 `;
 export const More = styled.button`
@@ -305,6 +306,41 @@ export const SiteWrapper = styled.a`
 `;
 export const GithubWrapper = styled.a`
   text-decoration: none;
+`;
+
+export const ReadMe = styled.div`
+  position: relative;
+  color: #eeeeee;
+  background-color: rgb(53, 53, 48);
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding-left: 30px;
+  padding-right: 10px;
+  height: 38px;
+  line-height: 38px;
+  transition: 150ms;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    background: url(${me}) 50% 50% no-repeat;
+    background-size: 12px 12px;
+    filter: invert(100%);
+    z-index: 999;
+    transform: translateY(-50%);
+    left: -1px;
+    border-radius: 1px;
+  }
+
+  &:hover {
+    background-color: rgb(65, 65, 60);
+  }
 `;
 
 export const Site = styled.div`
