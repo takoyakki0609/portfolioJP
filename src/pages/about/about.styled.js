@@ -104,6 +104,7 @@ export const IntroBox = styled.div`
   @media (min-width: 375px) and (max-width: 480px) {
     margin-top: 2rem;
     right: 0;
+    width: 24.375rem;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     right: -6rem;
