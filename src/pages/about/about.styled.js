@@ -103,7 +103,7 @@ export const IntroBox = styled.div`
   margin-top: 5.625rem;
   transition: 300ms ease;
   @media (min-width: 375px) and (max-width: 480px) {
-    margin-top: 2rem;
+    margin-top: 1rem;
     right: 0;
     width: 24.375rem;
   }
@@ -154,7 +154,7 @@ export const PointTag = styled.p`
   font-family: Pretendard JP;
   transition: 300ms ease;
   @media (min-width: 375px) and (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     font-size: 1.3rem;
