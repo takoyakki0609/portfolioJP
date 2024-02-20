@@ -108,6 +108,17 @@ export default function WorkSlide() {
                 </St.TagUl>
                 <St.UrlUl>
                   <St.UrlWrapper>
+                    {projects[currentIdx].readMe &&
+                      projects[currentIdx].readMe.length > 0 && (
+                        <St.SiteWrapper
+                          href={projects[currentIdx].readMe}
+                          target="_blank"
+                        >
+                          <St.ReadMe>Read Me</St.ReadMe>
+                        </St.SiteWrapper>
+                      )}
+                  </St.UrlWrapper>
+                  <St.UrlWrapper>
                     {projects[currentIdx].siteUrl &&
                       projects[currentIdx].siteUrl.length > 0 && (
                         <St.SiteWrapper
