@@ -36,6 +36,7 @@ export const ImgBox = styled.div`
   transition: 300ms ease;
   @media (min-width: 375px) and (max-width: 480px) {
     width: 100%;
+    height: 0;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     width: 100%;
