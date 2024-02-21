@@ -21,9 +21,9 @@
             "inner": "JavaScriptの配列、メソッド、DOMを理解し、様々な状況に適用することができます。"
         },
         {
-            "src": "https://raw.githubusercontent.com/takoyakki0609/portfolio/main/src/assets/sass.png",
-            "title": "SASS",
-            "inner": "SCSSの文法とモジュール化をうまく活用してスタイル作業を円滑にすることができます。"
+            "src": "https://raw.githubusercontent.com/takoyakki0609/portfolio/main/src/assets/sc.png",
+            "title": "STYLED-COMPONENTS",
+            "inner": "別途のコンポーネント化してインポートして使用できます。 MUI styled-compoentsも使用することができます。"
         },
         {
             "src": "https://raw.githubusercontent.com/takoyakki0609/portfolio/main/src/assets/reactjs.png",
